@@ -1,6 +1,12 @@
 ## 📓 TABLA DE CONTENIDO
-
-* [Acerca del proyecto](#acerca-del-proyecto)
+* [Framework de Laravel](#about-laravel)
+* [Documentación para aprender Laravel](#learning-laravel)
+* [Sponsor de Laravel](#laravel-sponsors)
+* [Patrocinadores de Laravel](#premium-partners)
+* [Guía de contribución de Laravel](#contributing)
+* [Vulnerabilidades de Seguridad de Laravel](#security-vulnerabilities)
+* [Licencia Laravel](#license)
+* [Acerca del proyecto](##acerca-del-proyecto)
 * [Características](#características)
 * [Instalación](#instalación)
 * [Dependencias](#dependencias)
