@@ -64,3 +64,86 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## 🔥 ACERCA DEL PROYECTO
+
+Este proyecto es una muestra de una solución para administrar estudiantes y materias utilizando `PHP Laravel 8 + Bootstrap + MySQL`.
+
+## ✔️ CARACTERÍSTICAS
+
+- [x] CRUD de usuarios
+- [x] CRUD de estudiantes
+- [x] Login
+
+## ⚙️ INSTALACIÓN
+
+Ejecutar aplicación.
+
+```bash
+dotnet run
+```
+
+### COMANDOS
+
+```bash
+# Crear proyecto
+composer create-project laravel/laravel project-paradigmas
+
+# Migración de base de datos
+php artisan migrate
+
+# Crear modelo de Estudiante (modelo-control-recurso)
+php artisan make:model Estudiante -mcr
+
+# Migración de tabla estudiante
+php artisan migrate
+
+#Ver rutas disponibles
+php artisan route:list
+
+#Abrir enlace para comunicarse con la carpeta de storage para imagenes
+php artisan storage:link
+
+#Agregar dependencias para autenticación
+composer require laravel/ui
+
+# Integrar bootstrap y autenticación
+php artisan ui bootstrap --auth
+
+# Procesar toda la aplicación
+npm install
+
+# Ejecutar build de integración
+npm run dev
+```
+
+## Comandos utilizados para los Charts
+
+```bash
+# Crear controlador
+php artisan make:controller ChartController
+
+# Usar seeder para poblar la tabla de usuarios
+php artisan db:seed
+```
+## ⚙️ RUN
+
+Correr la aplicación.
+
+```bash
+ php artisan serve
+ npm run dev
+```
+## 📥 DEPENDENCIAS
+
+- [BarChart](https://cdnjs.com/libraries/Chart.js) Chart.JS Gráficos HTML5 simples usando el elemento canvas.
+
+- [![npm version](https://badge.fury.io/js/alertifyjs.svg)](http://badge.fury.io/js/alertifyjs)
+
+- [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/alertifyjs/badge?style=rounded)](https://www.jsdelivr.com/package/npm/alertifyjs)
+
+### Install with [NPM](https://www.npmjs.com/package/alertifyjs/)
+
+```
+npm install alertifyjs --save
+```
