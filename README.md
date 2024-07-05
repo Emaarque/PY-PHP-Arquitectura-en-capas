@@ -1,4 +1,5 @@
-## 📓 TABLA DE CONTENIDO
+## 📓 INDICE DE CONTENIDO
+### 🏗️  Laravel
 * [Framework de Laravel](#about-laravel)
 * [Documentación para aprender Laravel](#learning-laravel)
 * [Sponsor de Laravel](#laravel-sponsors)
@@ -6,9 +7,10 @@
 * [Guía de contribución de Laravel](#contributing)
 * [Vulnerabilidades de Seguridad de Laravel](#security-vulnerabilities)
 * [Licencia Laravel](#license)
-* [Acerca del proyecto](##acerca-del-proyecto)
-* [Características](#características)
-* [Instalación](#instalación)
+### 🚀 Proyecto
+* [Acerca del proyecto](#acerca-del-proyecto)
+* [Características](#️características)
+* [Instalación](#️instalación)
 * [Dependencias](#dependencias)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
@@ -78,17 +80,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## 🔥 ACERCA DEL PROYECTO
+## ACERCA DEL PROYECTO
 
 Este proyecto es una muestra de una solución para administrar estudiantes y materias utilizando `PHP Laravel 8 + Bootstrap + MySQL`.
 
-## ✔️ CARACTERÍSTICAS
+## CARACTERÍSTICAS
 
 - [x] CRUD de usuarios
 - [x] CRUD de estudiantes
 - [x] Login
 
-## ⚙️ INSTALACIÓN
+## INSTALACIÓN
 
 Ejecutar aplicación.
 
@@ -139,7 +141,7 @@ php artisan make:controller ChartController
 # Usar seeder para poblar la tabla de usuarios
 php artisan db:seed
 ```
-## ⚙️ RUN
+## RUN
 
 Correr la aplicación.
 
@@ -147,7 +149,7 @@ Correr la aplicación.
  php artisan serve
  npm run dev
 ```
-## 📥 DEPENDENCIAS
+## DEPENDENCIAS
 
 - [BarChart](https://cdnjs.com/libraries/Chart.js) Chart.JS Gráficos HTML5 simples usando el elemento canvas.
 
